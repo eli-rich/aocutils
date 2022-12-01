@@ -1,4 +1,4 @@
-package main
+package aocutils
 
 func MapMirror[K comparable, V comparable](m map[K]V) map[V]K {
 	// Returns a mirrored map
